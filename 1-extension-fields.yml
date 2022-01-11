@@ -10,5 +10,6 @@ services:
     image: repo/app
     logging: *default-logging
   cache:
+    image: redis:${REDIS_VERSION}
     command: [redis-server, --append-only, 'yes']
     logging: *default-logging
