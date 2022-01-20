@@ -6,3 +6,5 @@ spec:
   containers:
   - name: mycontainer
     image: ngnix:latest
+    ports:
+      - containerPort: 80
