@@ -4,5 +4,5 @@ metadata:
   name: mypod
 spec:
   containers:
-    - name: mycontainer
-      image: mgnix: latest
+  - name: mycontainer
+    image: mgnix: latest
