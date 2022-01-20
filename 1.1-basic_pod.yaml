@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
   - name: mycontainer
-    image: mgnix: latest
+    image: ngnix:latest
